@@ -8,4 +8,5 @@ eureka:
     waitTimeInMsWhenSyncEmpty: 0
   instance:
     hostname: localhost
-
+user:
+  role: Admin
