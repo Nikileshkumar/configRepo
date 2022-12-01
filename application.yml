@@ -1,12 +1,4 @@
-eureka:
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://localhost:8768/eureka/
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
-  instance:
-    hostname: localhost
+eureka_port: 8768
+eureka_host: localhost
 user:
   role: Admin
