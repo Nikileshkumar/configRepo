@@ -3,10 +3,10 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://${MY_HOST:localhost}:8768/eureka/
+      defaultZone: http://localhost:8768/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
   instance:
-    hostname: ${MY_HOST:localhost}
+    hostname: localhost
 user:
   role: Admin
